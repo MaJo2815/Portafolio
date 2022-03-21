@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+body {
+	color: #26120d;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+}
+
+header {
+	background-color: #f7c554;
+	padding: 15px;
+}
+
+
+.overlay {
+	background-color: rgba(29,12,13,0.80);
+	padding: 75px 10px;
+	text-align: center;
+}
+
+#hero {
+	background-image: url("../img/fondo_hero.jpg");
+	background-position: center;
+	background-size: cover;
+	color:#FFF4E1;
+	
+}
+
+#hero h1{
+	font-size: 55px;
+}
+#hero h3 {
+	font-size: 25px;
+	padding: 25px 0px;
+}
+
+.btn-light {
+	background-color: transparent;
+	color: #FFF4E1;
+	font-weight: 600;
+	border: solid 3px #FFF4E1;
+	margin: 0px 10px;
+}
+
+.btn-light:hover {
+	background-color: #110606;
+	color: #FFF4E1;
+	font-weight: 600;
+	border: solid 3px #110606;
+	margin: 0px 10px;
+}
+
+.btn-warning {
+	background-color: #f7c554;
+	font-weight: 600;
+	margin: 0px 10px;
+}
+
+.btn-warning:hover {
+	background-color:#26120D;
+	font-weight: 600;
+	margin: 0px 10px;
+	color: #f7c554;
+}
+
+#sobre-mi, #servicios {
+	background-color: #f7c554;
+	padding: 25px 10px;	
+}
+
+#sobre-mi img {
+	border-radius: 100%;
+	padding: 15px 10px;
+	text-align: center;
+}
+
+
+#sobre-mi h2, #portafolio h2, #servicios h2, #contacto h2{
+	font-size: 35px;
+	font-weight: 700;
+	margin: 25px 0px;
+}
+
+#portafolio, #contacto {
+	background-color: #26120d;
+	padding: 25px 10px;	
+	color: #FFF4E1;
+	text-align: center
+}
+
+#portafolio img {
+	border-radius: 10%;
+	margin: 15px 0px;
+	padding: 0px 5px;
+}
+
+#servicios {
+	text-align: center;
+}
+
+.capa-relative {
+	position: relative;
+	overflow: hidden;
+}
+
+.capa-hover {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #f7c554 !important;
+	display: grid;
+	align-content: center;
+	text-align: center;
+	opacity: 0;
+	transition: all 0.5s ease;
+	border-radius: 10%;
+	color: #26120d;
+}
+
+.capa-hover:hover {
+	opacity: 1;
+	transition: all 0.5s ease;
+}
+
+#portafolio .capa-hover a {
+	color: #26120d;
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+#servicios i {
+	font-size: 65px;
+	font-weight: 700;
+	padding: 15px 0px;
+}
+
+#servicios h4 {
+	padding: 15px 0px;
+	font-size: 20px;
+}
+
+#contacto a {
+	color:#FFF4E1;
+	text-decoration: none;
+	
+}
+
+#contacto li {
+	text-align: center;
+	margin: 0px 20px;
+}
+
+#contacto i {
+	margin: 0px 10px;
+	font-size: 22px;
+	
+}
+
+footer {
+	background-color: #f7c554;
+	padding: 15px;
+}
+
+footer a {
+	color: #26120d;
+}
+
+footer i {
+	font-size: 30px;
+}
+
+footer i:hover {
+	color:#FFF4E1;
+}
